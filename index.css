@@ -1,0 +1,119 @@
+
+body, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.nav-header div{
+    display: flex;
+   justify-content: space-around;
+   width: 20%;
+   margin-left: auto;
+   margin-top: 20px;
+   padding: 0.2em;
+}
+
+ a{
+    text-decoration: none;
+    color: black;  
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.nav-link{
+    margin-top:5px;
+}
+.nav-header img{
+    height: 26px;
+}
+main{
+    margin:auto;
+    width: 50%;
+    text-align: center;
+}
+.main-1st-div{
+    border: 0.5px solid gray;
+    border-radius: 30px;
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
+    box-shadow: 1px 1px rgb(160, 158, 158);
+    
+}
+
+.img-2{
+    height: 20px;
+}
+.img-2:hover{
+    cursor: pointer;
+}
+
+
+input{
+    width: 80%;
+    border-radius: 30px;
+    border:none;
+    padding: 1em;
+}
+
+
+.main-2nd-div{
+    margin-top: 1.2em;
+}
+.main-2nd-div button{
+    padding: 1em;
+    border:none;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.main-3rd-div{
+    display: flex;    
+    margin:1.2em auto;
+    width:max-content;
+}
+.main-3rd-div p{
+    margin: auto;
+}
+.sub-div-list .list-content{
+    list-style: none;
+    padding:0px;
+}
+
+.list-content li{
+    display: inline-flex; 
+}
+
+li a{
+    text-decoration: none;
+    margin-right: 0.5em;
+    color: blue;
+}
+
+footer{
+    margin-top: 6em;
+    background-color: grey;
+    
+}
+footer p{
+    padding: 1em;
+   border-bottom: 1px solid black;
+    font-weight: bolder;
+}
+.footer-main-div{
+    display: flex;
+   padding: 1em;
+   justify-content: space-between;
+
+}
+.footer-left a{
+  margin-right:0.5em;
+  
+}
+.footer-right a{
+    margin-right:0.5em;
+    
+  }
+  
+  
